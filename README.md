@@ -1,6 +1,6 @@
 # book-4layer-workbench-skill
 
-把任意书籍 PDF 转化为「四层精读工作台」的 Mira Agent Skill。
+把任意书籍 PDF 转化为「四层精读工作台」的 Agent Skill。
 
 ## 输出物
 
@@ -18,16 +18,16 @@
 
 ## 安装
 
-把 `skills/book-4layer-workbench/` 整个目录扔进你的 Mira Agent skill 目录,或通过 Skill Market 安装。
+把 `skills/book-4layer-workbench/` 整个目录扔进你的 Agent skill 目录,或通过 Skill Market 安装。
 
 需要环境:
 - Python 3 + `PyMuPDF`
-- Mira Agent + `lark-shared` skill(用于飞书写入)
+- Agent + `lark-shared` skill(用于飞书写入)
 - `pdf` skill(用于 PDF 解析)
 
 ## 使用
 
-在 Mira Agent 对话框中:
+在 Agent 对话框中:
 
 ```
 帮我把这本《XXX》做一个四层精读工作台
